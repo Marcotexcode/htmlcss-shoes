@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* menu */
+
+.menu {
+   position: fixed;
+   width: 100%;
+
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu li a {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    line-height: 80px;
+    border-radius: 50px;
+}
+
+.menu li a:hover {
+    box-shadow: -5px 2px #2525253d;
+}
+
+/* container */
+
+
+
+
+
+/* debug */
+
+.debug .menu {
+    background-color: red;
+}
